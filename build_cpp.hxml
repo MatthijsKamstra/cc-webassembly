@@ -1,0 +1,12 @@
+# Windows maybe needs this define
+-D EMSCRIPTEN_SDK
+
+# If you want the .html file showing how to embed the wasm
+-D HXCPP_LINK_EMSCRIPTEN_EXT=.html
+
+# Tell hxcpp to use emscripten-toolchain.xml
+-D emscripten
+
+-cp src
+-cpp bin
+-main Main
