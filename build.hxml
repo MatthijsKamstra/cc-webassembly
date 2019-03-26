@@ -1,0 +1,13 @@
+# Clean up
+# -cmd echo '\n----- Cleaning -----'
+# -cmd rm -rf bin_test
+# -cmd rm -rf bin_release
+
+# Uncomment (#) more build scripts if you need more
+-cmd echo '\n----- build all (projectname: cc-webassembly) -----'
+-cmd echo '> build target cpp (build_cpp.hxml)'
+-cmd haxe build_cpp.hxml
+
+
+-cmd echo '> copy files to docs'
+-cmd node deployhaxe.js
