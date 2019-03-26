@@ -1,5 +1,10 @@
 # cc-webassembly
 
+<p align="center">
+  <img src="icon.jpg" />
+</p>
+
+
 See if I can get the heavy work done by webassembly
 
 Haxe, CPP, JavaScript & WebAssembly
