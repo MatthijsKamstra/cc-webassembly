@@ -33,8 +33,8 @@ EMSCRIPTEN_BINDINGS(my_module) {
 		;
 
 		class_<MyClass>("MyClass")
-		// .constructor<int>()
-		.constructor(&MyClass_obj::__new, allow_raw_pointers())
+		.constructor<int>()
+		// .constructor(&MyClass_obj::__new, allow_raw_pointers())
 		// .function("incrementX", &MyClass_obj::incrementX)
 		// .property("x", &MyClass_obj::get_x, &MyClass_obj::set_x)
 		.class_function("getStringFromInstance", &MyClass_obj::getStringFromInstance)
@@ -48,10 +48,10 @@ class Main {
 
 	static function main() {
 		trace('Main.main() :: ${App.NAME} - 333');
-		var my = new MyClass(10, 'hello');
-		my.incrementX();
-		my.x = 20;
-		trace(my.x);
+		// var my = new MyClass(10, 'hello');
+		// my.incrementX();
+		// my.x = 20;
+		// trace(my.x);
 	}
 
 	public static function DecompressI(width:Int, height:Int):Void {
