@@ -17,6 +17,7 @@ _build
 bin
 bin_test
 bin_release
+_old
 
 # Misc
 BUILD.MD
