@@ -13,12 +13,18 @@ npm-debug.log*
 node_modules
 
 # Haxe export folder
-_build
-bin
-bin_test
-bin_release
+# _build
+# bin
+# bin_test
+# bin_release
 
 # Misc
 BUILD.MD
 test.hxml
 out
+bin/src
+bin/obj
+bin/include
+HxcppConfig.h
+Build.xml
+Options.txt
