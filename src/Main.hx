@@ -47,7 +47,7 @@ class Main {
 	public static var MyClass:MyClass;
 
 	static function main() {
-		trace('Main.main() :: ${App.NAME} - 333');
+		trace('Main.main() :: ${App.NAME} :: ${App.BUILD} - 333');
 		// var my = new MyClass(10, 'hello');
 		// my.incrementX();
 		// my.x = 20;
