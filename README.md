@@ -9,6 +9,11 @@ See if I can get the heavy work done by webassembly
 
 Haxe, CPP, JavaScript & WebAssembly
 
+## current fail
+
+[Read here about why it doesn't seem to work](WIP.MD)
+
+
 ## Gist
 
 <https://gist.github.com/MatthijsKamstra/cbae06ae1dc3561621e489ae4d7a8aab>
